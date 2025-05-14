@@ -25,6 +25,14 @@ project-root/
 ├── run.sh              # Script to execute pipeline
 ├── README.md           # Project overview and instructions
 ```
+### Challenges Faced
+
+lava chicken
+
+### Future Improvements
+
+la la la lava chick chick chick chicken... 
+
 
 ## How to Install and Run the Project
 
