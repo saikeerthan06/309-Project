@@ -35,8 +35,8 @@ project-root/
 
 ### Set up environment (terminal)
 ```
-git clone https://github.com/<your-team>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/saikeerthan06/309-Project.git
+cd 309-Project
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
