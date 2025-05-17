@@ -72,3 +72,5 @@ richie: file 1 to file 6
 xiu wen file 7 to file 9 and created eda file format
 https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
 
+# Note: We did not read the data_dictionary as it is not a dataset to be used. Viewed it externally on excel instead.
+
