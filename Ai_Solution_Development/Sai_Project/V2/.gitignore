@@ -2,8 +2,6 @@ Y3S1_venv/
 .ipynb_checkpoints/
 __pycache__/
 *.pyc
+.vscode/
 *.log
 *.csv
-*.zip
-*.tar
-*.ipynb_checkpoints/
