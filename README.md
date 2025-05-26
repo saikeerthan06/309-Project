@@ -64,7 +64,5 @@ bash run.sh
 | Sai Keerthan (Leader)  | Model & Pipeline Developer               |
 | Leong Jun Ming         | Model & Pipeline Developer               |
 | Richie Teo Wei Xuan    | Data Preprocessing, EDA Visualizations        |
-| Lee Xiu Wen            | Data Preprocessing, Table Merging, Slides, Readme file           |
-
-https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
+| Lee Xiu Wen            | Data Preprocessing, Table Merging, PowerPoint Slides, ReadME.md |
 
