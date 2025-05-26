@@ -60,7 +60,7 @@ bash run.sh
 
 ## Credits
 
-### Group contributions
+### Group Contributions
 | Name                   | Contribution                             |
 | ---------------------- | ---------------------------------------- |
 | Sai Keerthan (Leader)  | Model & Pipeline Developer               |
@@ -68,7 +68,7 @@ bash run.sh
 | Richie Teo Wei Xuan    | Data Preprocessing, EDA Visualizations        |
 | Lee Xiu Wen            | Data Preprocessing, eda.ipynb, ReadME.md, PowerPoint Slides |
 
-### Resources used
+### Resources Used
 - https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
 - https://www.markdownguide.org/basic-syntax/#lists-1
 
