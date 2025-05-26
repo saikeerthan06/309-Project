@@ -59,10 +59,16 @@ bash run.sh
 ```
 
 ## Credits
+
+### Group contributions
 | Name                   | Contribution                             |
 | ---------------------- | ---------------------------------------- |
 | Sai Keerthan (Leader)  | Model & Pipeline Developer               |
 | Leong Jun Ming         | Model & Pipeline Developer               |
 | Richie Teo Wei Xuan    | Data Preprocessing, EDA Visualizations        |
 | Lee Xiu Wen            | Data Preprocessing, eda.ipynb, ReadME.md, PowerPoint Slides |
+
+### Resources used
+- https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
+- https://www.markdownguide.org/basic-syntax/#lists-1
 
