@@ -63,8 +63,8 @@ bash run.sh
 | ---------------------- | ---------------------------------------- |
 | Sai Keerthan (Leader)  | Model & Pipeline Developer               |
 | Leong Jun Ming         | Model & Pipeline Developer               |
-| Richie Teo Wei Xuan    | Data Cleaning, EDA Visualizations        |
-| Lee Xiu Wen            | Data Cleaning, Table Merging             |
+| Richie Teo Wei Xuan    | Data Preprocessing, EDA Visualizations        |
+| Lee Xiu Wen            | Data Preprocessing, Table Merging, Slides, Readme file           |
 
 # TO EDIT
 credits:
