@@ -17,7 +17,7 @@ This project is part of the EGT309 Learning Unit and contributes 40% to the fina
 ```
 project-root/
 │
-├── src/                 # Source code for pipeline
+├── src/                # Source code for pipeline
 ├── saved_model/        # Trained model(s) directory
 ├── eda.ipynb           # Jupyter notebook for EDA
 ├── eda.pdf             # Exported PDF version of EDA
@@ -27,7 +27,7 @@ project-root/
 ```
 ### Challenges Faced
 
-lava chicken
+- Merging of all 9 datasets to form a master dataset table. Some datasets when merged, produces a one-to-many explosion of rows resulting in redundant duplicates (i.e. orders_item_dataset, order_payments_dataset). Decided to preserve product-seller granularity to enable accurate future merging of datasets. 
 
 ### Future Improvements
 
@@ -64,5 +64,5 @@ bash run.sh
 | Sai Keerthan (Leader)  | Model & Pipeline Developer               |
 | Leong Jun Ming         | Model & Pipeline Developer               |
 | Richie Teo Wei Xuan    | Data Preprocessing, EDA Visualizations        |
-| Lee Xiu Wen            | Data Preprocessing, Table Merging, PowerPoint Slides, ReadME.md |
+| Lee Xiu Wen            | Data Preprocessing, eda.ipynb, ReadME.md, PowerPoint Slides |
 
