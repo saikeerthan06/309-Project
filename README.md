@@ -83,7 +83,7 @@ bash run.sh
 | Name                   | Student ID         | Contribution(s)                                             |
 | ---------------------- | ------------------ |------------------------------------------------------------ |
 | Sai Keerthan (Leader)  | 232594T            | Model & Pipeline Developer                                  |
-| Leong Jun Ming         | 233079X            | Model, Kedro Pipeline , ReadME.md Developer                                  |               
+| Leong Jun Ming         | 233079X            | Developed whole Kedro Pipeline (run.sh,requirements.txt, ReadMe.md, catalog.yml, parameters.yml, nodes.py, pipeline.py), Model Development (Splitting dataset, feature engineering, training of random forest and lightBGM), Slides|               
 | Richie Teo Wei Xuan    | 231944N            | Data Preprocessing, EDA Visualizations                      |
 | Lee Xiu Wen            | 231867A            | Data Preprocessing, eda.ipynb, ReadME.md, PowerPoint Slides |
 
