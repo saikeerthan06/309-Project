@@ -31,7 +31,7 @@ project-root/
 ### To run the pipeline (terminal)
 
 git clone https://github.com/saikeerthan06/309-Project.git
-python -m venv venv
+python -m venv venv | python3 -m venv venv (For MacOS)
 source venv/bin/activate   # on macOS/Linux
 .\venv\Scripts\activate    # on Windows
 bash run.sh
