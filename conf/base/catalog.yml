@@ -1,0 +1,82 @@
+raw_customers:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/olist_customers_dataset.csv
+
+cleaned_customers:
+  type: pandas.ParquetDataset
+  filepath: data/02_intermediate/cleaned_customers.parquet
+
+raw_geolocation:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/olist_geolocation_dataset.csv
+
+cleaned_geolocation:
+  type: pandas.ParquetDataset
+  filepath: data/02_intermediate/cleaned_geolocation.parquet
+
+raw_order_items:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/olist_order_items_dataset.csv
+
+cleaned_order_items:
+  type: pandas.ParquetDataset
+  filepath: data/02_intermediate/cleaned_order_items.parquet
+
+raw_order_reviews:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/olist_order_reviews_dataset.csv
+
+cleaned_order_reviews:
+  type: pandas.ParquetDataset
+  filepath: data/02_intermediate/cleaned_order_reviews.parquet
+
+raw_orders:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/olist_orders_dataset.csv
+
+cleaned_orders:
+  type: pandas.ParquetDataset
+  filepath: data/02_intermediate/cleaned_orders.parquet
+
+raw_products:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/olist_products_dataset.csv
+
+cleaned_products:
+  type: pandas.ParquetDataset
+  filepath: data/02_intermediate/cleaned_products.parquet
+
+raw_sellers:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/olist_sellers_dataset.csv
+
+cleaned_sellers:
+  type: pandas.ParquetDataset
+  filepath: data/02_intermediate/cleaned_sellers.parquet
+
+raw_category_translation:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/product_category_name_translation.csv
+
+cleaned_category_translation:
+  type: pandas.ParquetDataset
+  filepath: data/02_intermediate/cleaned_category_translation.parquet
+
+raw_order_payments:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/olist_order_payments_dataset.csv
+
+cleaned_order_payments:
+  type: pandas.ParquetDataset
+  filepath: data/02_intermediate/cleaned_order_payments.parquet
+
+master_dataset:
+  type: pandas.ParquetDataset
+  filepath: data/03_primary/master_dataset.parquet
+feature_engineered_dataset:
+  type: pandas.ParquetDataset
+  filepath: data/03_primary/feature_engineered_dataset.parquet
+
+stacked_model_saved_path:
+  type: pickle.PickleDataset
+  filepath: saved_model/stacked_ensemble_model.pkl

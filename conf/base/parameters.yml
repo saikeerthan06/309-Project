@@ -1,0 +1,18 @@
+  features:
+    - price
+    - payment_type
+    - payment_installments
+    - payment_value
+    - review_score
+    - product_category_name_english
+    - zip_code
+    - city
+    - state
+    - recency_days
+    - purchase_month
+    - purchase_dayofweek
+  target_col: is_repeat_buyer
+  test_size: 0.3
+  val_size: 0.2
+  random_state: 42
+  stacked_model_path: saved_model/stacked_ensemble_model.pkl
