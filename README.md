@@ -3,12 +3,19 @@
 ## Project Description
 
 ### Synopsis
-This project is part of the EGT309 Learning Unit and contributes 40% to the final grade. It involves performing Exploratory Data Analysis (EDA), building a machine learning pipeline using Kedro, and presenting insights and model performance.
+This repository here hosts the entire version control of this project is part of the EGT309 Learning Unit and contributes 40% to the final grade. 
+The Version Control involves: 
+    1. Performing Data Cleaning & Exploratory Data Analysis (EDA) 
+    2. Training 4 different models(Random Forest, LightGBM, XGBoost, CatBoost) & merging them into an ensemble stacked model. 
+    3. Building a machine learning pipeline using Kedro, and presenting insights and model performance. 
+    4. Lastly containerising the entire pipeline using Docker such that the project can be viewed on localhost.
+
+This project's objectives is to predict the potential repeat buyers through our ensemble stacked model such that Olist will be able to launch targeted marketing campaigns. 
 
 ### Objectives
 1. Perform EDA and document insights
 2. Select and justify machine learning models
-3. Build and execute a machine learning pipeline (Kedro)
+3. Build and execute a machine learning pipeline (Kedro) | Containerise Project through Docker
 4. Collaborate using version control
 5. Present and explain code and results effectively
 
@@ -30,11 +37,11 @@ project-root/
 
 ### To run the pipeline (terminal)
 
-git clone https://github.com/saikeerthan06/309-Project.git
-python -m venv venv | python3 -m venv venv (For MacOS)
-source venv/bin/activate   # on macOS/Linux
-.\venv\Scripts\activate    # on Windows
-bash run.sh
+- git clone https://github.com/saikeerthan06/309-Project.git
+- python -m venv venv | python3 -m venv venv (For MacOS)
+- source venv/bin/activate   # on macOS/Linux
+- .\venv\Scripts\activate    # on Windows
+- bash run.sh
 
 ## Pipeline Flow
 
@@ -69,11 +76,12 @@ bash run.sh
 ## Challenges Faced
 
 - Merging of all 9 datasets to form a master dataset table. Some datasets when merged, produced a one-to-many explosion of rows resulting in redundant duplicates (e.g., order_items_dataset, order_payments_dataset). Decided to preserve product-seller granularity to enable accurate future merging of datasets.
+- Tackling the Class Imbalance based on our complex data pre-processing logic, despite using multiple different methods to tackle class imbalance like SMOTE + Undersampling/Stacked Model, Model still is not showing perfect results for Class 1, with either the precision or the recall falling behind. 
 
 
 ## Future Improvements
 
-- Add advanced feature engineering and model tuning
+- Add advanced feature engineering and model tuning, including RandomSearchCV/GridSearchCV
 - Automate data quality checks
 - Deploy model as a REST API (bonus!)
 - More fun EDA visualizations
@@ -82,7 +90,7 @@ bash run.sh
 ### Group Contributions
 | Name                   | Student ID         | Contribution(s)                                             |
 | ---------------------- | ------------------ |------------------------------------------------------------ |
-| Sai Keerthan (Leader)  | 232594T            | Model & Docker                                 |
+| Sai Keerthan (Leader)  | 232594T            | Data Pre-Processing(Tackling class imbalance by re-distrubuting class weights, SMOTE + Sampling), Model Development(Trained XGBoost & CatBoost Model, combined all of the 4 models into one stacked model), Oversaw handling of the git repository including gitignore etc. , edited ReadMe.md & Oversaw Containerisation of the pipeline using Docker, edited relevant PowerPoint Slides|
 | Leong Jun Ming         | 233079X            | Developed Kedro Pipeline (run.sh,requirements.txt, ReadMe.md, catalog.yml, parameters.yml, nodes.py, pipeline.py), Model Development (Splitting dataset, feature engineering, training of random forest and lightBGM), Slides|               
 | Richie Teo Wei Xuan    | 231944N            | Data Preprocessing, EDA Visualizations                      |
 | Lee Xiu Wen            | 231867A            | Data Preprocessing, eda.ipynb, ReadME.md, PowerPoint Slides |
