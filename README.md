@@ -44,8 +44,8 @@ project-root/
 - bash run.sh
 
 **To Use Docker and Containerise the pipeline**:
-1. docker build -t <name> .
-2. docker run -d -p 5050:5050 <name>
+1. docker build -t (name) .
+2. docker run -d -p 5050:5050 (name)
 3. Go to browser and type in "localhost:5050" and the entire pipeline should show up in a Jupyter environment.
 
 ## Pipeline Flow
